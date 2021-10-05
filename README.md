@@ -20,11 +20,6 @@
 
 
 
-
-
-
-
-
 ## Making a plan
 
 (bolded steps are mandatory, unbolded are for more advanced projects)

@@ -1,11 +1,6 @@
-// import functions and grab DOM elements
+const userQuestion = document.getElementById('user-input');
+const button = document.getElementById('shake-btn');
 
-// initialize global state
-
-// set event listeners 
-  // get user input
-  // use user input to update state 
-  // update DOM to reflect the new state
 
   const colors = ['yellow', 'white', 'green'];
 
@@ -27,3 +22,7 @@
 
     const answer = document.getElementById('answer');
     answer.textContent = answers[randomAnswer];
+
+    button.addEventListener('click', () =>{
+      
+    })
