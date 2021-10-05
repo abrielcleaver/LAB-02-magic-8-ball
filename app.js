@@ -1,5 +1,5 @@
 const userQuestion = document.getElementById('user-input');
-const button = document.getElementById('reveal-btn');
+const button = document.getElementById('reveal-button');
 const resetButton = document.getElementById('reset-button');
 
 
