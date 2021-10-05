@@ -1,25 +1,46 @@
-.container {
-    width: 400px;
-    margin: auto;
-    text-align: center;
-    border: solid black;
-    border-radius: 10px;
-    padding: 50px;
+body {
+    background-image: url(../assets/Crystal-Ball-Background.jpeg);
+    background-size: cover;
 }
 
-#shake-btn {
+.container {
+    width: 400px;
+    margin-left: 850px;
+    text-align: center;
+    background: white;
+    color:black;
+    border: solid black;
+    border-radius: 10px;
+    padding: 40px;
+    margin-top: 40px;
+}
+
+h1 {
+    font-family: "Dancing Script", sans-serif;
+}
+h2 {
+    font-family: "Dancing Script", sans-serif;
+}
+
+#reveal-btn {
     margin-top: 20px;
     margin-bottom: 20px;
+    border-radius: 30px;
+    padding: 10px;
+    border: white;
 }
 
 #eight-ball {
     width: 250px;
     height: 250px;
-    margin: auto;
-    padding-top: 50px;
-    background: darkblue;
-    border: black solid;
-    border-radius: 100%;
+    margin-left: 35%;
+    margin-top: 10%;
+    padding-bottom: 20%;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: "Dancing Script", sans-serif;
     color: white;
 }
 

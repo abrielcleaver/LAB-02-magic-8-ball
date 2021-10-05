@@ -9,23 +9,31 @@
     <link rel="stylesheet" href="./styles/reset.css">
     <link rel="stylesheet" href="./styles/style.css">
     <link rel="stylesheet" href="./styles/home.css">
-    <title>Document</title>
+
+    <!--font links-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;700&display=swap" rel="stylesheet">
+   
+    <title>Fortune Teller App</title>
 </head>
 
 <body>
     <div class="container">
         <header>
-            <h1>Magic 8 Ball</h1>
+            <h1>Fortune Teller</h1>
         </header>
         
         <h2>Type Your Question Below</h2>
-        <input type="text" name="" id="user-input">
+        <input type="text" id="user-input" placeholder="Ask Away">
         <br>
-        <button id="shake-btn">SHAKE ME</button>
-        
-        <div id="eight-ball">
-            <span id="answer-input">Ask Again Later</span>
-        </div>
+        <button id="reveal-btn">REVEAL</button>
+        <br>
+        <button id="reset-button">Ask Again</button>
+        <br>
+    </div>
+    <div id="eight-ball">
+        <span id="response">Ask Again Later</span>
     </div>
     <script type="module" src="./app.js"></script>
 </body>

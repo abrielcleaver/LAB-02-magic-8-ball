@@ -1,5 +1,6 @@
 const userQuestion = document.getElementById('user-input');
-const button = document.getElementById('shake-btn');
+const button = document.getElementById('reveal-btn');
+const resetButton = document.getElementById('reset-button');
 
 
  // const colors = ['yellow', 'white', 'green'];
@@ -21,8 +22,14 @@ const button = document.getElementById('shake-btn');
     button.addEventListener('click', () =>{
       const randomAnswer = getRandomNumber(answers.length);
       console.log(answers[randomAnswer]);
-  
-      const answerInput = document.getElementById('answer-input');
+
+      const answerInput = document.getElementById('response');
       answerInput.textContent = answers[randomAnswer];
       
+    })
+
+    resetButton.addEventListener('click', () =>{
+      userQuestion.textContent = '' ;
+      response.textContent = 'Ask Again Later';
+
     })
