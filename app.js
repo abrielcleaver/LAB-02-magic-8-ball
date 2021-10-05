@@ -2,7 +2,7 @@ const userQuestion = document.getElementById('user-input');
 const button = document.getElementById('shake-btn');
 
 
-  const colors = ['yellow', 'white', 'green'];
+ // const colors = ['yellow', 'white', 'green'];
 
   import { answers } from './answers.js';
     // to generate a random color from he array
@@ -14,15 +14,15 @@ const button = document.getElementById('shake-btn');
       return Math.floor(Math.random() * max);
     };    
 
-    const randomIdx = getRandomNumber(colors.length);
-    console.log(colors[randomIdx]);
+    // const randomIdx = getRandomNumber(colors.length);
+    // console.log(colors[randomIdx]);
 
-    const randomAnswer = getRandomNumber(answers.length);
-    console.log(answers[randomAnswer]);
-
-    const answer = document.getElementById('answer');
-    answer.textContent = answers[randomAnswer];
-
+    
     button.addEventListener('click', () =>{
+      const randomAnswer = getRandomNumber(answers.length);
+      console.log(answers[randomAnswer]);
+  
+      const answerInput = document.getElementById('answer-input');
+      answerInput.textContent = answers[randomAnswer];
       
     })
