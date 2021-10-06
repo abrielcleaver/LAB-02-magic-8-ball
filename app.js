@@ -1,4 +1,4 @@
-const userQuestion = document.getElementById('user-input');
+const userInput = document.getElementById('user-input');
 const button = document.getElementById('reveal-button');
 const resetButton = document.getElementById('reset-button');
 
@@ -29,7 +29,7 @@ const resetButton = document.getElementById('reset-button');
     })
 
     resetButton.addEventListener('click', () =>{
-      userQuestion.textContent = '' ;
+      userInput.textContent = '' ;
       response.textContent = 'Ask Again Later';
 
     })

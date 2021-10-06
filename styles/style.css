@@ -7,8 +7,8 @@ body {
     width: 400px;
     margin-left: 850px;
     text-align: center;
-    background: white;
-    color:black;
+    background: #7bafd4;
+    color:#faedcd;
     border: solid black;
     border-radius: 10px;
     padding: 40px;
@@ -17,6 +17,8 @@ body {
 
 h1 {
     font-family: "Dancing Script", sans-serif;
+    margin-top: auto;
+    font-size: 50px;
 }
 h2 {
     font-family: "Dancing Script", sans-serif;
@@ -28,6 +30,7 @@ h2 {
     border-radius: 30px;
     padding: 10px;
     border: white;
+    background: #faedcd;
 }
 
 #reset-button {
@@ -36,6 +39,7 @@ h2 {
     border-radius: 30px;
     padding: 10px;
     border: white;
+    background: #faedcd;
 }
 
 #eight-ball {
